@@ -20,6 +20,7 @@ export default function Home() {
                     'bg-yellow-600 hover:bg-yellow-700': value >= 50 && value < 100
                 })}
                 onClick={click}
+                type="button"
             >
                 Click me
             </Button>
