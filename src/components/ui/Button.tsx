@@ -3,7 +3,7 @@ import { clsx } from 'clsx';
 
 type TButton = React.ButtonHTMLAttributes<HTMLButtonElement> & {
     children: React.ReactNode;
-    className: string;
+    className?: string;
 };
 
 const Button = ({ children, className, ...props }: TButton) => {
